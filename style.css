@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../Order_Summary_Capstone_Project/images/pattern-background-desktop.svg);
+    display: flex;
+    font-family: "Red Hat Display";
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    width: 400px;
+    padding: 0.5rem auto;
+    margin: auto;
+    display: flex;
+}
+
+.row {
+    width: 400px;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.img_container {
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text {
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.annual {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.aaa {
+    text-align: center;
+    padding: 8px;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 30px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.img-fluid {
+    width: 40px;
+    height: auto;
+}
+
+.img-fluid, .AnnualText {
+    margin-right: 10px;
+}
+
+b {
+    font-weight: 900;
+}
+
+.change {
+    padding-left: 80px;
+    position: relative;
+    bottom: -10px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.change:hover {
+    color: hsla(245, 75%, 52%, 0.5);
+    text-decoration: none;
+}
+
+.button {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    padding: 15px;
+    background-color: hsl(245, 75%, 52%);
+    border: 1px solid gray;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    -moz-box-shadow: 0px 5px 18px hsl(245, 75%, 52%);
+    -webkit-box-shadow: 0px 5px 18px hsl(245, 75%, 52%);
+    box-shadow: 0px 5px 18px hsl(245, 75%, 52%);
+}
+
+.btn-primary:hover {
+    transition: 0s;
+    background-color: hsla(245, 75%, 52%, 0.5);
+}
+
+.order {
+    text-align: center;
+    margin-top: 20px;
+    color: hsla(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.order:hover {
+    padding: 10px;
+    color: black;
+    font-weight: 1000;
+}
+
+@media screen and (max-width: 375px){
+    body {
+        background: url(../Order_Summary_Capstone_Project/images/pattern-background-mobile.svg);
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    .container {
+        padding: 10px !important;
+        margin-right: 20px !important;
+    }
+}
